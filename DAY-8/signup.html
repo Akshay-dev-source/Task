@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          body{
+            background-color: #5053F7;
+        }
+ #main{
+            background-color: white;
+            width: 300px;
+            height: 460px;
+            border-radius: 30px;
+            position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+        }
+        div#main{
+            width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+        }
+
+        #Email{
+            border: none;
+            height: 36px;
+            width: 200px;
+            border-radius: 15px;
+            background-color: white;
+            color: black;
+        }
+        #Username{
+            border: none;
+            height: 36px;
+            width: 200px;
+            border-radius: 15px;
+            background-color: white;
+            color: black;
+        }
+        #Password{
+            border: none;
+            height: 36px;
+            width: 200px;
+            border-radius: 15px;
+            background-color: white;
+            color: black;
+        }
+        #account{
+            border: none;
+            height: 36px;
+            width: 200px;
+            border-radius: 15px;
+            cursor: pointer;
+            background-color: #005EA4;
+            color: white;
+        }
+        #account:hover{
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <center><img src="logo.jpg" alt="logo" title="logo" width="170px" ></center>
+    <center>Sign up</center>  
+    <br>  
+    <center>Just a few quick things to get started</center>
+    <center>
+        <br>
+      
+            <input type="email" name="Email" id="Email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+            <br>
+            <br>
+            <input type="text" name="Username" id="Username" placeholder="Username" pattern="[A-Za-z0-9]"  required>
+            <br>
+            <br>
+            <input type="Password" name="Password" id="Password" placeholder="Password"  pattern="[a-zA-Z0-9!@#\$%\^\&*_=+-]{8} required >
+            <br>
+            <br>
+            <a href=""><input type="button" id="account" value="Create account"></a>
+      
+    </center>
+    <br>
+    <center>Already have an account? <span><a href="login.html">Log in</a></span></center> 
+</div>
+</body>
+</html>
