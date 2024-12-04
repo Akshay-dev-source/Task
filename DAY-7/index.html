@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    body{
+        background-image: linear-gradient(#FECACC, #6A8797)        
+    }
+  </style>
+</head>
+<body>
+    <center>Addmission Form</center>
+ <fieldset>
+    <legend>Personal Information</legend>
+
+<!--Registration  -->
+<label for="Registration">Registration No :</label>
+<input type="text" id="Registration" required  placeholder="Enter registration no">
+<br>
+<br>
+<!-- Student Name -->
+<label for="Student">&nbspStudent Name&nbsp   :</label>&nbsp
+<input type="text" id="Student" placeholder="Enter name" required>
+<br>
+<br>
+<!--E-mail  -->
+<label for="mail">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspE-mail ID :</label>
+<input type="email" id="mail" placeholder="Enter email" required>
+<br>
+<br>
+<!-- Date of Birth  -->
+<label for="date">&nbsp&nbsp&nbsp&nbspDate of Birth :</label>
+<input type="date" id="date" required>
+<br>
+<br>
+<!--Mobile Number-->
+<label for="number">&nbspMobile Number:</label>
+<input type="number" id="number" placeholder="Enter Number" required>
+<br>
+<br>
+<!--father name  -->
+<label for="father">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFather Name:</label>
+<input type="text" id="father" placeholder="Father name" required>
+<br>
+<br>
+<!-- Mother name -->
+ <label for="mother">&nbsp&nbsp&nbsp&nbspMother Name:</label>
+ <input type="text" id="mother" placeholder="Mother name" required>
+<br>
+<br>
+<!-- Aadhar Number -->
+ <label for="aadhar">Aadhar Number:</label>
+<input type="text" id="aadhar" placeholder="Aadhar Number" required>
+<br>
+<br>
+
+<!-- Select Gender -->
+ <label for="">Select Gender</label>
+ <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+ <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+ <input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label>
+</fieldset>
+<br>
+<br>
+<fieldset>
+    <legend>Education Qualification</legend>
+    <table border="1">
+        <!-- row 1 -->
+        <tr>
+            <th>Qualification</th>
+            <th>Institute</th>
+            <th>Board/University</th>
+            <th>Year of Study</th>
+            <th> Percentage</th>
+        </tr>
+        <!-- row2 -->
+        <tr>
+            <td>Secondary</td>
+            <td><label for="1"></label> <input type="text" id="1"></td>
+            <td><label for="2"></label> <input type="text" id="2"></td>
+            <td><label for="3"></label> <input type="text" id="3"></td>
+            <td><label for="4"></label> <input type="text" id="4"></td>
+        </tr>
+        <!-- row3 -->
+        <tr><td>Higher secondary</td>
+        <td><label for="5"></label> <input type="text" id="5"></td>
+        <td><label for="6"></label> <input type="text" id="6"></td>
+        <td><label for="7"></label> <input type="text" id="7"></td>
+        <td><label for="8"></label> <input type="text" id="8"></td>
+    </tr>
+        <!-- row4 -->
+        <tr><td>Graduation</td>
+        <td><label for="9"></label> <input type="text" id="9"></td>
+        <td><label for="10"></label> <input type="text" id="10"></td>
+        <td><label for="11"></label> <input type="text" id="11"></td>
+        <td><label for="12"></label> <input type="text" id="12"></td></tr>
+    </table>
+
+</fieldset>
+<br>
+<br>
+<fieldset>
+    <legend>Course Applied</legend>
+    <label for="course">Select course type of course:</label>
+    <select name="course" id="course">
+        <option value="select">select course</option>
+        <option value="UnderGraduate">Under Graduate</option>
+        <option value="PostGraduate">Post Graduate</option>
+      </select>
+    <br>
+    <br>
+    <label for="">  Choose Under Graduate subject here : </label>
+    <input type="radio" id="BCA" name="ug" value="ug"> <label for="BCA">BCA</label>
+    <input type="radio" id="BA" name="ug" value="ug"> <label for="BA">BA</label>
+    <input type="radio" id="B.com" name="ug" value="ug"> <label for="B.com">B.com</label>
+    <input type="radio" id="BBA" name="ug" value="ug"> <label for="BBA">BBA</label>
+    <input type="radio" id="LLB" name="ug" value="ug"> <label for="LLB">LLB</label>
+    <input type="radio" id="B.sc" name="ug" value="ug"> <label for="B.sc">B.sc</label>
+<br>
+<br>
+<label for="">&nbsp&nbsp&nbspChoose Post Graduate subject here :</label>
+<input type="radio" id="MCA" name="ug" value="ug"> <label for="MCA">MCA</label>
+<input type="radio" id="LLM" name="ug" value="ug"> <label for="LLM">LLM</label>
+<input type="radio" id="M.Com" name="ug" value="ug"> <label for="M.Com">M.Com</label>
+<input type="radio" id="M.sc" name="ug" value="ug"> <label for="M.sc">M.sc</label> 
+</fieldset>
+<br>
+<input type="checkbox" id="click" name="click" value="click">
+<label for="click">I here by declare that the given above is true and correct to the best of my knowledge and belief.</label>
+<br>
+<br>
+<center><input type="button" value="Register">&nbsp&nbsp&nbsp
+    <input type="button" value="Clear"></center>
+</body>
+</html>
