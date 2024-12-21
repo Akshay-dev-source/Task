@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color:rgb(255,255,255);
+    color: black;
+    height: 10vh;
+ width: 100%;
+top: 0;
+
+}
+.logo{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    top: 30%;
+    letter-spacing: 5px;
+    margin-left: 50px;
+}
+.list{
+    display: inline-block;
+   position: absolute;
+   right: 0;
+   top: 30%;
+   word-spacing: 10px;
+   margin-right: 50px;
+   letter-spacing: 5px;
+   
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    
+}
+ul>li{
+    display: inline-block;
+    padding: 5px;
+}
+ul>a{
+    text-decoration: none;
+}
+a:link{
+    color: red;
+  
+}
+.logo:hover{
+    background-color: #c2c9d6;
+    color: black;
+   
+}
+li:hover{
+    background-color: #c2c9d6;
+    color: black;
+}
+.img{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 47%;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.br{
+    background-color: rgb(54,55,57);
+    padding: 10px 10px 10px 10px;
+}
+.main{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.project{
+  margin-bottom: 15px;
+    font-size: 30px;
+}
+.cards{
+    width: 100%;
+    margin-top: 30px;
+  
+}
+.house1{
+    display: inline-block;
+    width: 24%;
+    position: relative;
+    top: 0;
+}
+.house1>img{
+    width: 100%;
+}
+.summer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    font-size:20px;
+    width: 140px;
+}
+.house2{
+    display: inline-block;
+    width: 24%;
+    position: relative;
+    top: 0;
+}
+.house2>img{
+    width: 100%;
+}
+.brick{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    font-size:20px;
+    width: 110px;
+}
+.house3{
+    display: inline-block;
+    width: 24%;
+    position: relative;
+    top: 0;
+}
+.house3>img{
+    width: 100%;
+}
+.renovated{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    font-size:20px;
+    width: 100px;
+}
+.house4{
+    display: inline-block;
+    width: 24%;
+    position: relative;
+    top: 0;
+}
+.house4>img{
+    width: 100%;
+}
+.barn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    font-size:20px;
+    width: 100px;
+}
+.about{
+    margin-top: 50px;
+}
+.a{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.lorem{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profiles{
+    width: 100%;
+   
+
+}
+.profile1{
+    display: inline-block;
+    width: 24%;
+ 
+}
+.john{
+    
+    margin-top: 10px;
+    color: black;
+    font-size: 25px;
+}
+.ceo{
+    margin-top: 10px;
+    color: rgb(102,102,102);
+font-size: 20px;
+}
+.Phasellus{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.contact{
+    margin-top: 15px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(241,241,241);
+    font-size: 20px;
+    border: none;
+}
+.contact:hover{
+    background-color: #dee3ed;
+}
+.profile2{
+    display: inline-block;
+    width: 24%;
+margin-left: 7px;
+}
+.profile3{
+    display: inline-block;
+    width: 24%;
+    margin-left: 7px;
+ 
+}
+.profile4{
+    display: inline-block;
+    width: 24%;
+  margin-left: 7px;
+}
+.form{
+    margin-top: 50px;
+}
+.a1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.let{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.name{
+    width: 99%;
+    margin-top: 10px;
+    height: 5vh;
+}
+.mail{
+    width: 99%;
+    margin-top: 10px;
+    height: 5vh;
+}
+.subject{
+    width: 99%;
+    margin-top: 10px;
+    height: 5vh;
+}
+.comment{
+    width: 99%;
+    margin-top: 10px;
+    height: 5vh;
+}
+.button{
+    width: 15%;
+    height: 7vh;
+    margin-top: 25px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.button:hover{
+    background-color: rgb(238,238,238);
+    color: black;
+}
+.map{
+    margin-top: 50px;
+}
+.footer{
+    background-color: black;
+    color: white;
+text-align: center;
+height: 5vh;
+margin-top: 5px;
+padding-top: 15px;
+letter-spacing: 10px;
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.nav{
+   padding: 10px;
+    width: 40%
+}
+.list{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+}
+ul>li{
+    list-style: none;
+}
+.button{
+    width: 20%;
+    background-color: rgb(89,46,197);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+.main{
+display: flex;
+margin-left: 10px;
+}
+.div1{
+margin-right: 10px;
+    width: 50%;
+    height: 89vh;
+}
+.div2{
+    width: 50%;
+}
+.website{
+margin-top: 130px;
+margin-left: 20px;
+font-size: 80px;
+font-weight: bold;
+inline-size: 150px;
+}
+.para{
+    margin-top: 50px;
+    margin-left: 20px;
+    inline-size: 500px;
+    font-size: 20px;
+}
+.button1{
+    
+margin-top: 65px;
+margin-left: 20px;    
+}
+.submit{
+    background-color: rgb(138,43,226);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    width: 20%;
+    font-size: 15px;
+}
