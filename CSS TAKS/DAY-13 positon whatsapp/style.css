@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container{
+    width: 20%;
+    height: 0vh;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.navbar{
+    width: 20%;
+height: 8vh;
+align-items: center;
+background-color: rgb(7,94,85);
+position: fixed;
+top: 0;
+z-index: 5;
+border-radius: 12px 12px 0px 0px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.layout{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    width: 50%;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+gap: 10px;
+}
+.icon{
+    color: white;
+    margin-right: 0px;
+}
+.img{
+    border-radius: 70%;
+}
+div>p{
+    color: white;
+    font-size: 15px;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.section1{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icons{
+    margin-left: 25px;
+    color: white;
+}
+.messages{
+    margin-top: 52px;
+  height: 47vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-color: rgb(236,227,220);
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.day{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    position: sticky;
+    top: 10px;
+    z-index: 5;
+}
+.color{
+    background-color: rgb(213,234,249);
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+.dad{
+    text-align: left;
+    margin-bottom: 20px;
+    inline-size: 200px;
+    margin-left: 15px;
+    background-color:rgb(255,255,255);
+}
+.son{
+   margin-left: 150px;
+  margin-bottom: 20px;
+  inline-size: 130px;
+  white-space: pre-wrap;
+  background-color: #dcf8c6;
+}
+.section2{
+    width: 20%;
+    position: fixed;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.div{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.input{
+    border: none;
+}
