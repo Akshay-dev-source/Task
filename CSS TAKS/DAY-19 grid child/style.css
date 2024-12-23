@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.main{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 10vh 10vh 10vh;
+    gap: 5px;
+    grid-template-areas: 
+    "child1 child1 child1"
+    "hero hero hero"
+    "menu main main"
+"menu  banner  banner"
+"menu extra image";
+}
+.child1,.c2,.c3,.child4,.child5,.child6,.child7{
+padding: 10PX;
+    color: WHITE;
+    text-align: center;
+    align-content: center;
+}
+.c2{
+    text-align: center;
+    align-content: center;
+}
+
+.child1{
+  grid-area:child1;
+}
+.c2{
+    grid-area: hero;
+}
+.c3{
+    grid-area: menu;
+}
+.child4{
+    grid-area: main;
+}
+.child5{
+   grid-area:  banner;
+}
+.child6{
+    grid-area: extra;
+}
+.child7{
+    grid-area: image;
+}
+.template{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 10vh 10vh 10vh 10vh;
+    gap: 5px;
+}
+.h1{
+    background-color: rgb(254,153,0);
+    color: white;
+    height: 10vh;
+    text-align: center;
+    align-content: center;
+grid-column-start: 1;
+grid-column-end: 4;
+}
+.h2{
+    background-color:rgb(255,94,3);
+    color: white;
+    text-align: center;
+    align-content: center;
+    grid-row-start: 2;
+    grid-row-end: 4;
+ 
+}
+.h3{
+    background-color: rgb(204,0,1);
+    color: white;
+    align-content: center;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+.h4{
+    background-color:rgb(219,3,252);
+    color: white;
+    align-items: center;
+    align-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+.h5{
+    background-color: rgb(219,3,252);
+    color: white;
+    text-align: center;
+    align-content: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.h6{
+    background-color: rgb(254,153,0);
+color: white;
+text-align: center;
+align-content: center;
+grid-column-start: 1;
+grid-column-end: 4;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 10vh 10vh 10vh;
+    height: 10vh;
+}
+.h7{
+background-color:rgb(211,5,87);
+color: white;
+text-align: center;
+align-content: center;
+grid-column: 1/2;
+}
+.h8{
+    background-color:rgb(0,171,165);
+    color: white;
+    text-align: center;
+    align-content: center;
+    grid-column: 2/3;
+}
+.h9{
+    background-color:rgb(0,152,119);
+    color: white;
+    text-align: center;
+    align-content: center;
+    grid-column: 3/4;
+}
+.h10{
+    background-color: rgb(33,150,217);
+    color: white;
+    text-align: center;
+    align-content: center;
+    grid-column: 4/5;
+    grid-row:1/4 ;
+}
+.h11{
+    background-color: rgb(26,109,159);
+    color: white;
+    text-align: center;
+    align-content: center;
+    grid-column: 5/6;
+    grid-row:1/4 ;
+}
+.h12{
+    background-color: rgb(234,102,1);
+    color: white;
+    text-align: center;
+    align-content: center;
+    grid-column: 1/2;
+    grid-row:2/4 ;
+}
+.h13{
+    background-color: rgb(255,137,97);
+    color: white;
+    text-align: center;
+    align-content: center;
+    grid-column: 2/4;
+    grid-row:2/4 ;
+}
