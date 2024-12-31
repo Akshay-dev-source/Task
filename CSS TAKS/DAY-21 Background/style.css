@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.class1{
+    height: 100vh;
+    background-image: url("html.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-attachment: fixed;
+    background-position: center;
+}
+.class2{
+    height: 100vh;
+    background-image: url("css.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+}
+.class3{
+    height: 100vh;
+    background-image: url("javascript.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+}
+.class4{
+    height: 100vh;
+    background-image: url("angular.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+}
+.class5{
+    height: 100vh;
+    background-image: url("react.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+}
+.class6{
+    height: 100vh;
+    background-image: url("vue.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+}
+.class7{
+    height: 100vh;
+    background-image: url("vite.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+}
+.class8{
+    height: 100vh;
+    background-image: url("typescript.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+}
+.class9{
+    height: 100vh;
+    background-image: url("nextjs.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+}
+.class10{
+    height: 100vh;
+    background-image: url("nestjs.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+}
+.class11{
+    height: 100vh;
+    background-image: url("nodejs.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: center;
+}
