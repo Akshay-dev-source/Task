@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#name{
+    transition: all;
+    transition-duration: 5s;
+}
+#name:hover{
+    transform: scale(0.5);
+}
+.top{
+    position: absolute;
+    top: 0;
+}
+.image{
+    margin-top: 100px;
+}
